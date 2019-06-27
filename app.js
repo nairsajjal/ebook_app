@@ -13,7 +13,7 @@ app.set('view engine', 'handlebars');
 
 //body parser
 app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({encoded:false}));
+app.use(bodyParser.urlencoded({extended:false}));
 
 //Set static folder
 app.use(express.static(`${__dirname}/public`));
