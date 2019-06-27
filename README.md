@@ -1,1 +1,1 @@
-A node app which uses the StripeAPI as the payments gateway.
+A node app which uses the StripeAPI as the payments gateway and is also using Node.js totaly as its backend. The front end includes handlebars and the bootstap classes. The deployed version of this app can be seen in this link https://still-brook-25333.herokuapp.com/ 
