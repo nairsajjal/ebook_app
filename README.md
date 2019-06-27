@@ -1,0 +1,1 @@
+A node app which uses the StripeAPI as the payments gateway.

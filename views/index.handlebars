@@ -1,0 +1,31 @@
+<section class="py-2">
+    <div class="row">
+        <div class="col-md-6 text-center">
+            <h1 class="display-3 mt-3 pt-5">
+                A generic SEO ebook
+            </h1><p class="lead">Learn the Basics of SEO</p>
+            <form action="/charge" method="POST">
+            <script
+                src="https://checkout.stripe.com/checkout.js"
+                class="stripe-button"
+                data-key="pk_test_FcztpDcLZfmMB37gt5NT2rb500AAraeEbq"
+                data-amount="2500"
+                data-name="Seo Ebook"
+                data-description="Ebook sample"
+                data-image="/img/marketplace.png"
+                data-locale="auto">
+
+                
+            </script>
+            <script>
+                //hide default button
+                document.getElementsByClassName('stripe-button-el')[0].style.display='none';
+            </script>
+            <button type="submit" class="btn btn-outline-light text-warning btn-lg ">Purchase the book</button>
+            </form>
+        </div>
+        <div class="col-md-6">
+            <img src="/img/ebook.jpg" alt="ebook" class="img-fluid">
+        </div>
+    </div>
+</section>
